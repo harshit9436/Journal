@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Journal</string>
+    <string name="app_info">GRATITUDE. SELF. JOURNAL</string>
+    <string name="welcome_text">What are you grateful for today?</string>
+    <string name="get_started">GET STARTED</string>
+    <string name="email_hint">Email</string>
+    <string name="pass_hint">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="create">CREATE</string>
+    <string name="or">OR</string>
+    <string name="username_hint">Username</string>
+    <string name="save_button">SAVE</string>
+    <string name="title_et">Title</string>
+    <string name="description_et">Add Description</string>
+    <string name="name">Name</string>
+    <string name="today">Today</string>
+    <string name="todo">TODO</string>
+    <string name="add">ADD</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="row_title">Title</string>
+    <string name="row_thought">Thoughts..</string>
+    <string name="row_dateCreated">Date created</string>
+    <string name="noItem">No Journal Added</string>
+    <string name="line">________________________________________________________</string>
+    <string name="update">UPDATE</string>
+    <string name="delete_button">DELETE</string>
+</resources>

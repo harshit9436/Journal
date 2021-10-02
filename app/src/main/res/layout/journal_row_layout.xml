@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:backgroundTint="#FFF8F3F3"
+    android:elevation="12dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="12dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alpha="0.8"
+        android:background="#FFF8F3F3"
+        android:elevation="10dp">
+
+        <TextView
+            android:id="@+id/name_row_textview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingStart="16dp"
+            android:paddingTop="12dp"
+            android:paddingBottom="5dp"
+            android:paddingEnd="12dp"
+            android:textColor="#000000"
+            android:textSize="18sp">
+
+        </TextView>
+
+<!--        <Button-->
+<!--            android:id="@+id/share_row_button"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="@android:color/transparent"-->
+<!--            android:paddingTop="16dp"-->
+<!--            app:icon="@drawable/ic_baseline_share_24"-->
+<!--            app:iconTint="#000000">-->
+
+<!--        </Button>-->
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/row_imageview"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:adjustViewBounds="true"
+            android:cropToPadding="false"
+            android:padding="8dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/landscape">
+
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/row_title_textview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="8dp"
+            android:padding="12dp"
+            android:text="@string/row_title"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/row_thought_textview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="8dp"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:text="@string/row_thought"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/row_dateCreated_textview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="8dp"
+            android:elevation="10dp"
+            android:gravity="bottom"
+            android:paddingLeft="12dp"
+            android:paddingTop="5dp"
+            android:paddingRight="12dp"
+            android:paddingBottom="3dp"
+            android:text="@string/row_dateCreated"
+            android:textColor="#232020"
+            android:textSize="12sp" />
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center|center_horizontal|center_vertical"
+            android:text="@string/line"
+            android:visibility="gone" />
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
